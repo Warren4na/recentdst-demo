@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RECENT DST WEBSITE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMFfMxjnzOtBTw7ELT9AyoUytlrOekfNI8tywpI"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/1088100410.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navigation menu-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img src="images/dstlogo.png" alt="ReCentDST Logo"
+        /></a>
+        <button
+          class="navbar-toggler mx-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link mx-3" href="index.html">Home</a>
+            <a class="nav-link mx-3" href="about.html">About Us</a>
+            <a class="nav-link mx-3" href="services.html">Services</a>
+            <a class="nav-link mx-3" href="portfolio.html">Portfolio</a>
+            <a
+              class="nav-link mx-3 active"
+              aria-current="page"
+              href="contact.html"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header Text-->
+    <div class="px-4 py-5 header-text-margin text-center">
+      <img
+        class="d-block mx-auto mt-5 mb-4"
+        src="images/icons8-get-in-touch-100.png"
+        alt=""
+        width="72"
+        height="57"
+        style="filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2))"
+      />
+      <h1 class="display-4 fw-bold" style="color: #3d53a2; letter-spacing: 1px">
+        Get in touch
+      </h1>
+      <!-- <div class="col-lg-6 mx-auto">
+        <p
+          class="lead mb-4"
+          style="color: #6c757d; line-height: 1.7; font-size: 1.2rem"
+        >
+          Quickly design and customize responsive mobile-first sites with
+          <span style="color: #f1552b; font-weight: 600">Bootstrap</span>, the
+          world’s most popular front-end open-source toolkit, featuring Sass
+          variables and mixins, responsive grid system, extensive prebuilt
+          components, and powerful JavaScript plugins.
+        </p>
+      </div> -->
+    </div>
+
+    <!--Contact Form-->
+    <div class="mb-3 p-4">
+      <form
+        class="contact-form mx-auto p-4 shadow-lg rounded-3"
+        action="https://formspree.io/f/mgvwgjpa"
+        method="POST"
+      >
+        <!-- Name input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <input
+            type="text"
+            id="form4Example1"
+            class="form-control"
+            placeholder="John Doe"
+            name="name"
+          />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+
+        <!-- Email input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <input
+            type="email"
+            id="form4Example2"
+            class="form-control"
+            placeholder="example@email.com"
+            name="email"
+          />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+
+        <!-- Message input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <textarea
+            class="form-control"
+            id="form4Example3"
+            rows="4"
+            placeholder="Write your message here"
+            name="message"
+          ></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+
+        <!-- Checkbox -->
+        <!-- <div class="form-check d-flex justify-content-center mb-4">
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form4Example4"
+            checked
+          />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div> -->
+
+        <!-- Submit button -->
+        <button
+          data-mdb-ripple-init
+          type="submit"
+          class="btn btn-primary btn-block"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+
+    <!--Map-->
+    <!-- Map Embed Section -->
+    <div class="d-flex justify-content-center py-4">
+      <div
+        class="map-container shadow-lg rounded-4 overflow-hidden"
+        style="width: 90%; max-width: 900px"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d10235.353614086513!2d-13.267673699415008!3d8.473295869577372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d8.473142!2d-13.260994!4m0!5e0!3m2!1sen!2ssl!4v1727086675872!5m2!1sen!2ssl"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <br />
+
+    <!--Footer-->
+    <footer class="footer py-5" style="background-color: #3d53a2; color: white">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <h5 class="fw-bold" style="color: #f1552b">About Us</h5>
+            <p class="text-white justify-content-center">
+              ReCentDST Ltd is committed to developing innovative solutions for
+              science and technology. We ignite ideas, innovate solutions, and
+              invest in the future.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+            <h5 class="fw-bold" style="color: #f1552b">Quick Links</h5>
+            <ul class="list-unstyled my-auto">
+              <li>
+                <a
+                  href="index.html"
+                  class="text-white link-offset-2 link-underline-light link-opacity-50-hover"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="text-white link-offset-2 link-underline-light link-opacity-50-hover"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html"
+                  class="text-white link-offset-2 link-underline-light link-opacity-50-hover"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="portfolio.html"
+                  class="text-white link-offset-2 link-underline-light link-opacity-50-hover"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="contact.html"
+                  class="text-white link-offset-2 link-underline-light link-opacity-50-hover"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <h5 class="fw-bold" style="color: #f1552b">Contact Us</h5>
+            <p class="small mb-0 text-white">ReCentDST Ltd</p>
+            <p class="small mb-0 text-white">
+              51 A Main Motor Road, Wilberforce
+            </p>
+            <p class="small mb-0 text-white">Freetown, Sierra Leone</p>
+            <p class="small mb-0 text-white">Email: info@recentdst.com</p>
+            <p class="small mb-0 text-white">Phone: +232-76-803154</p>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 text-center text-md-start">
+            <h5 class="fw-bold" style="color: #f1552b">Follow Us</h5>
+            <a
+              href="https://www.facebook.com/recentdst?mibextid=ZbWKwL"
+              target="_blank"
+              class="text-white me-3"
+            >
+              <i class="bi bi-facebook" style="font-size: 1.5rem"></i>
+            </a>
+            <a
+              href="https://x.com/recentds_t?t=SRS3qC4eVGuzDL13WOnvGw&s=08"
+              target="_blank"
+              class="text-white me-3"
+            >
+              <i class="bi bi-twitter-x" style="font-size: 1.5rem"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/louise-chaytor-50266277/"
+              target="_blank"
+              class="text-white me-3"
+            >
+              <i class="bi bi-linkedin" style="font-size: 1.5rem"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/recentds_t?igsh=MWRrc2R2dWRycWFrMw=="
+              target="_blank"
+              class="text-white me-3"
+            >
+              <i class="bi bi-instagram" style="font-size: 1.5rem"></i>
+            </a>
+          </div>
+        </div>
+
+        <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.3)" />
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="small mb-0 text-white">
+              © 2024 ReCentDST Ltd. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
